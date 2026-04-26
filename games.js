@@ -2790,7 +2790,7 @@ function generateAllSections() {
           const encoded = encodeURIComponent(normalized);
 
           fetch(
-            `https://cdn.jsdelivr.net/gh/bubbls/ugs-singlefile/UGS-Files/${encoded}?t=${Date.now()}`,
+            `https://cdn.jsdelivr.net/gh/mcgee1717/994894838923761723/UGS-Files/${encoded}?t=${Date.now()}`,
           )
             .then((response) => response.text())
             .then((text) => {
